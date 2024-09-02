@@ -2,4 +2,10 @@
   flex: 1;
   min-height: calc(100vh - 200px);
   min-height: calc(100dvh - 200px);
+  padding-top: 20px;
+}
+
+html[data-iframe] .container {
+  padding-top: 20px;
+  padding-bottom: 50px;
 }

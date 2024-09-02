@@ -10,3 +10,7 @@
 .footer a {
   color: var(--font-color100);
 }
+
+html[data-iframe] .footer {
+  display: none;
+}
